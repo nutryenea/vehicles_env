@@ -5,7 +5,7 @@ import streamlit as st
 
 # Leer archivo csv
 car_data = pd.read_csv(
-    '/Users/arturoparrasolano/Documents/Data_Science/vehicles_us.csv')
+    'vehicles_us.csv')
 
 # Crear el encabezado de la app web
 st.header('Análisis exploratorio de datos de anuncios de venta de coches')
